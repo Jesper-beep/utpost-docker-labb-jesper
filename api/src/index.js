@@ -9,6 +9,7 @@ import { toursRouter } from './routes/tours.js';
 import { photosRouter } from './routes/photos.js';
 
 const app = express();
+//Bla Bla Bla
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
